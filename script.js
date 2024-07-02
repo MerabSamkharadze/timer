@@ -1,5 +1,7 @@
 "use strict";
 
+import { Timer } from "./timer.js";
+
 const durationInput = document.getElementById("duration");
 const startButton = document.getElementById("start");
 const pauseButton = document.getElementById("pause");

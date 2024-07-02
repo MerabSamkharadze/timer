@@ -1,5 +1,6 @@
 "use strict";
-class Timer {
+
+export class Timer {
   constructor(durationInput, startButton, pauseButton, callBacks) {
     this.durationInput = durationInput;
     this.startButton = startButton;
